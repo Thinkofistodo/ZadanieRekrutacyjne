@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+#root {
+   	display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    gap: 15px;
+	@media (max-width: 1180px) {
+		flex-direction: column;
+	}
+}
+
+i {
+    display: grid!important;
+    place-items: center!important;
+}

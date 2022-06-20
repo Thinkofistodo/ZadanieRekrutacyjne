@@ -1,0 +1,19 @@
+.Calendar {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 630px;
+	gap: 15px;
+	background-color: #FAF8FF;
+	background-image: url("../../images/flours-bg.png");
+	background-position: 0 100%;
+	padding: 30px 10px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 13px -1px rgba(66, 68, 90, 0.6);
+	@media (max-width: 360px){
+		gap: 5px;
+		padding: 30px 0;
+	}
+}

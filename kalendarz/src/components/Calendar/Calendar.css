@@ -1,0 +1,7 @@
+.Calendar {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-gap: 20px;
+}
+
+/*# sourceMappingURL=Calendar.css.map */

@@ -1,0 +1,50 @@
+.Calendar__Field {
+	position: relative;
+	//min-width: 64px;
+	//max-width: 100px;
+	width: 100px;
+	aspect-ratio: 1 / 1;
+	//border: 1px solid black;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 3px 3px 8px -1px rgba(66, 68, 90, 0.6);
+	cursor: pointer;
+	transition: background-color .1s;
+}
+.Calendar__Field:hover {
+	background: #efefef;
+}
+.Calendar__Field::before {
+	content: attr(data-dayNumber);
+	position: absolute;
+	color: #212121;
+	top: 7px;
+	left: 7px;
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+.Calendar__Field-Button {
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	border: none;
+	box-shadow: 1px 1px 8px -1px rgba(66, 68, 90, 0.6);
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	// false
+	color: #363636;
+	background-color: #ffffff;
+}
+
+.Calendar__Field-ButtonTrue {
+	// true
+	color: white;
+	background-color: #328c0d;
+}
+
+.button__icon {
+	transform: translate(0.5px, 0.4px);
+}
